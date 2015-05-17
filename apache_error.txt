@@ -1,0 +1,62 @@
+Error:
+
+* Hostname was found in DNS cache
+*   Trying 178.32.83.31...
+* Connected to sc.istmeinhandyan.de (178.32.83.31) port 1337 (#7)
+> HEAD / HTTP/1.1
+User-Agent: Title graber
+Host: sc.istmeinhandyan.de:1337
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+* Empty reply from server
+* Connection #7 to host sc.istmeinhandyan.de left intact
+* Hostname was found in DNS cache
+*   Trying 178.32.83.31...
+* Connected to sc.istmeinhandyan.de (178.32.83.31) port 1337 (#8)
+> HEAD / HTTP/1.1
+User-Agent: Title graber
+Host: sc.istmeinhandyan.de:1337
+Accept: */*
+Accept-Encoding: deflate, gzip
+
+* Empty reply from server
+* Connection #8 to host sc.istmeinhandyan.de left intact
+
+
+
+Array
+(
+    [url] => http://sc.istmeinhandyan.de:1337/
+    [content_type] => 
+    [http_code] => 0
+    [header_size] => 0
+    [request_size] => 123
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 0.079
+    [namelookup_time] => 0
+    [connect_time] => 0.032
+    [pretransfer_time] => 0.032
+    [size_upload] => 0
+    [size_download] => 0
+    [speed_download] => 0
+    [speed_upload] => 0
+    [download_content_length] => -1
+    [upload_content_length] => 0
+    [starttransfer_time] => 0.079
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 178.32.83.31
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 1337
+    [local_ip] => 192.168.0.17
+    [local_port] => 52456
+    [errno] => 52
+    [errmsg] => Empty reply from server
+    [content] => 
+)
